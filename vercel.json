@@ -1,0 +1,17 @@
+{
+    "rewrites": [
+      { "source": "/", "destination": "/index.html" },
+      { "source": "/blog", "destination": "/blog.html" },
+      { "source": "/realtors", "destination": "/realtors.html" },
+      { "source": "/contact-us", "destination": "/contact-us.html" },
+      { "source": "/why-us", "destination": "/why-us.html" },
+      { "source": "/listing", "destination": "/listing.html" }
+    ],
+    "redirects": [
+      { "source": "/blog.html", "destination": "/blog", "permanent": true },
+      { "source": "/realtors.html", "destination": "/realtors", "permanent": true },
+      { "source": "/contact-us.html", "destination": "/contact-us", "permanent": true },
+      { "source": "/why-us.html", "destination": "/why-us", "permanent": true },
+      { "source": "/listing.html", "destination": "/listing", "permanent": true }
+    ]
+  }
